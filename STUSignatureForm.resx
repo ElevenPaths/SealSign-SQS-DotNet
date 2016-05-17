@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 108</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>buttonsPanel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSign.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnSign.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSign.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btnSign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 191</value>
+  </data>
+  <data name="btnSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnSign.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnSign.Text" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="btnSign.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnSign.Name" xml:space="preserve">
+    <value>btnSign</value>
+  </data>
+  <data name="&gt;&gt;btnSign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSign.Parent" xml:space="preserve">
+    <value>buttonsPanel</value>
+  </data>
+  <data name="&gt;&gt;btnSign.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 66</value>
+  </data>
+  <data name="buttonsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 270</value>
+  </data>
+  <data name="buttonsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;buttonsPanel.Name" xml:space="preserve">
+    <value>buttonsPanel</value>
+  </data>
+  <data name="&gt;&gt;buttonsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonsPanel.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;buttonsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 17</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 41</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>SealSignSQSClient - Sign here . . .</value>
+  </data>
+  <data name="lblTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sealSignBSSWacomSTUPanel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="sealSignBSSWacomSTUPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 11</value>
+  </data>
+  <data name="sealSignBSSWacomSTUPanel1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="sealSignBSSWacomSTUPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 247</value>
+  </data>
+  <data name="sealSignBSSWacomSTUPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sealSignBSSWacomSTUPanel1.Name" xml:space="preserve">
+    <value>sealSignBSSWacomSTUPanel1</value>
+  </data>
+  <data name="&gt;&gt;sealSignBSSWacomSTUPanel1.Type" xml:space="preserve">
+    <value>SealSignBSSClientLibrary.SealSignBSSWacomSTUPanel, SealSignBSSClientLibrary, Version=3.1.0.0, Culture=neutral, PublicKeyToken=7292d37ec3154539</value>
+  </data>
+  <data name="&gt;&gt;sealSignBSSWacomSTUPanel1.Parent" xml:space="preserve">
+    <value>framePanel</value>
+  </data>
+  <data name="&gt;&gt;sealSignBSSWacomSTUPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="framePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 66</value>
+  </data>
+  <data name="framePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 270</value>
+  </data>
+  <data name="framePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;framePanel.Name" xml:space="preserve">
+    <value>framePanel</value>
+  </data>
+  <data name="&gt;&gt;framePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;framePanel.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;framePanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 11</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 52</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="backgroundPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="backgroundPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 352</value>
+  </data>
+  <data name="backgroundPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.Name" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>560, 352</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAAAGAAoMgAAFgAAACgAAABAAAAAgAAAAAEAGAAAAAAAADAAAAAAAAAAAAAAAAAAAAAA
+        AAAmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYYmJYYlJIYmIoVUnuNfyP9Zr+4oLoslIYQn
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcnJIcmJIckIIJRldpf
+        x/9hx/9AarkhGn8mJYgmJYcmJYYmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYciHX9BbLxgxv9exP5asfIqMpAkIIQkJYcmJIYmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYclJYckIYUsNpM6ZLdcu/lhyf9Kgs0hHIAmJYYlJYcmJYYmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJIYoKoslLo9BgMxgyf9gwfw1S6QjHIEmJYYmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIcmJIcmJYclIYUtOJU2X7Vfw/5fxv9V
+        oeMmJIclIoUmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYclJYclI4Yn
+        J4lIfstdwv1cvvxgx/8/Z7ghGoAlJYcmJYYmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcjHYA2TqVgwf1cwPtewv1bsvEqM5AlIIMmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIciHYFKgc1hyP9cvvlgyP9KgMsiHIAmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYckIYQpL41are5fw/5dv/tfwPwySaEi
+        HYEmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYYlJYchHH85Vqth
+        xP9cv/pfxf9VoOMmJYYlI4UmJYcmJYYmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JIcmJIcmJIYhHoFNjNNgxv9cvvphyP9CcL8hG38mJIclJIcmJIcmJYYmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYYmJYclH4MuPJdduvhdwPxdwfxevPkvQZsjHoElJYclJoYlJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYclJYclJIgmJYYhG4BHf8lgx/9bvvtgxv9TnN8iJYQmIoYm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIcmJIcmJYclH4MvPphevPlcwPtc
+        v/thyP9Db78iG38mJYYmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcjHoFOjNRfx/9cvvpcwfxevfoyRZ4iHoAmJYcmJYcmJYcmJYclJoYmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcjHoEzSaFgwf1cv/tbvvpfxv9Wo+MlJ4kkIoQmJYclJYYnJIcmJIcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIYjIINQk9lfx/9cvftcvvthyP9IfMghHIAmI4glJYcm
+        JYYlJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIcjHoIxRJ1hvvpdwftdvvtcwPtf
+        w/03U6giG4AnJIglJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYYiG4FH
+        esZhyP9bvvpdvftew/5bsPAqNJAkH4MlJYcmJIcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYclJIgmJYclIYUnKolXpuhexf9dvvpcvvpgx/9PktkkIYQlI4YmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYclJoUiHIE0SqJgwPxdwPxcvvpcv/phx/9BbbwhG38mJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYcmJIgmJIcmJIYhG39Fd8RgyP9cvvpdvvpcwfxgv/s0
+        S6MiHIAmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIcmJYYmJIcmJYgkIoUmJ4hVoORe
+        xv9dvvpcvvpexP5arOwpMI4kIIQnJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcjHYIwQpxeu/hdwfxcvvpcvvtgyP9OjdYjH4ImI4YlJYcmJIcmJYcmJYcmJYcmJYcmJYcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJIcmJYchG38+abhhx/9cv/pdvvtcv/tix/9DbL0hG38mJYUlJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYcmJYcmI4YjIINQkthgyP9cvvpcvvtdwPxfwfw2TqYi
+        G38mJIcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYcnJIcmJIcjH4MqM5FbsO9fw/9d
+        vvpcvvpdw/9bsvAsNpMjHoMmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcn
+        JYciG382UKdfwf1dwPxcvvpcvvpfx/9UnOAmJoglIYUmJoYmJYYmJYclJYYmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYYiHH9FdcJhyP9cvvtcv/pdvvphyP9JgswiHYEkI4YmJYcmJYYmJYYmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYclI4UlJIZSmd5gxv9cvvpdvvpcv/xhx/8+ZbYhG34n
+        JYYmJIclJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcnJYcjH4IrN5RcsvJew/5bv/ld
+        vvpdwfxfv/o2TKQiG4AmJYcnJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIcmJYYi
+        HH83VKphwv5cwPtdvvpcvvpexP5bsvEtOZQjHoMmJIgmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYciHH9Fd8NhyP9dvftbv/lcvvpfx/9VneIlJoglIoUmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclIoUlI4ZTmd5gxv9cvvpdvvpdvvphyP9EdMEiHIAmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcjHoEtOZZbt/Rewv1bvvtcvvpd
+        wf1eu/ctPJckIIM6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYciGn8+
+        ZbZhxf9cvvtcvvpbvvpgyP9KgcwjHYE6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYclJYcmIoYmJYVWouZdw/9cvvpcvvpdwv1bsPApLo46N5AmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYYmJYciG34/aLpgxv9cvvpcvvpcv/tfwv00SqI4M44mJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYclJYcjH4ExRJ5fwftcv/tcvvpcvvpgx/89XrI3
+        MYwmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJoYnJYchGH42Uadfw/1cv/pc
+        vvpcvvpfx/88X7M5MI0mJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYcmJYcmJYckIIMiHYEiHYAhHH8gHYAiH4IiHoEhHIAgHH8i
+        HYAjHYElIIMlI4UlI4cmJIcmJYcmJYcmJYcmJYcmJYcmJYcmJYYmJYYmJYcmJYcmJYclJIckIIUhGn4w
+        QZpYrO1ewv5cvvpcvvtbv/pgxP83UKY4Mo4mJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIcmJIcnJIgjH4IuPJc5Wq8+YrRDcb9Kgs1M
+        i9NLidJIgMpDc8E+YrQ1T6ctPZgnLYwlIoUjHoAhHH8iHYAjHYIjHYIkH4IkH4MjH4MjH4MkHoMiHYEh
+        HH8kH4ApMo9Dbr1euvZexP5cvvpdvvpcvvpewv1bs/EqMI46NpAmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYcmJYcjH4IrNZJbr+5h
+        yf9fxv9gx/9hx/9gxv9gxv9hx/9gx/9fx/9fw/5eu/hbre5TnOFKiNFDc8A9YLQ3Uqk5T6cyR58yQ50y
+        Q50yQ500SqI5V6xBbrtOkNdds/Rgx/9dwf1dvvtdvvpcvvtcvvphyv9EdcMiHIE6OZImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIgk
+        IoQmJ4dTnOBfx/9dvvpcvvpbvvtdvvtcvvpcvvpcvvpcvvpcvvtcvvtdwPtcwv1dxP9gxv9jx/9hxv9e
+        xP5ew/5ewf1fwfxfwPpfwftewv1fxP9ix/9fxv9dwfxdvvtcvvpcvvtcvvpbvvpfxv9Xo+YoKowlIoU5
+        OpEmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYclI4YmI4ZMhtBgyP9dvvtdvvpdvvpbvvpdvvpbv/pcvvpcvvpcvvpdvvpbv/pcvvpcvvpc
+        vvpbvvpcvvpcvvpcvvpdv/tdv/tcv/tcv/tbv/tcv/pcvvpcvvpcv/pbv/pcvvpcvvtcvvpbvvpgx/9b
+        re4sOZUjH4MmJoc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcjH4IyRZ9iwv5cwPpdvvpcvvpcvvpcvvpcvvpcvvpdvvpevvtcvvpb
+        vvpcvvpcvvpcvvpcvvpcvvpcvvpcvvpcvvpcvvpcvvpcvvpcvvpdvvpcvvpcvvpcvvtcvvpbvvpdvvpc
+        vvpdwfxiyP9UnuItOJQiHYInJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYckIYQsNpNct/VdwPxcvvpcvvpcvvpcvvpcvvpe
+        wfxew/5ew/5dwv1cwfxcwftcv/tbv/tcvvpdvvpcvvpcvvpcvvpcvvtcvvtcvvpcvvpdvvpdvvpcvvpc
+        vvpdvvpdwPtew/1hyP9dt/ZDcsAlJogkH4ImJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclI4YkJIVUn+Jexf5bvvpc
+        vvpcvvpcvvpdv/tZre1WpOhWpulaq+1dsPJfuPZfvflfwvxgxv9fxv9gx/9hx/9hxv9gxv9gxf9fxf9f
+        xP9exf9gxf9hx/9gx/9gxv9gvftXpehEc8IsNpMiHH8lIoYmJYYlJYYlJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYci
+        HIBCa7xhyf9cvvpcvvpcvvpcvvpfxf9Kg80iIYMmKYkoLYsoMI4qNpMvQps0TaQ6WK1AZrhFdcNLgsxO
+        jNNOj9ZPkddSl91Tm99RmN1PkdhLh9BFdsM8XrIvQZolJ4giHIAkIIQmJYcmJYYmJIclJYcnJIcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcnJYcmJIckIoUmKohVoeVfxv9cvvtcvvpcvvpcv/tgwv47XK8gGH4mIoUlIoQkIYQkIIQkHoIj
+        HYAiHX8gHIAgHIAiHoIhIIIiIYMkIoQlI4UkIoUjIIMhHYAgHH8iHIEkH4MlI4YmJYcmJYcmJYcmJYcm
+        JYcmJYclJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYgjHoIvPZhdt/RdxP5bvvpcvvtdvvldwvxdvPo3TqUiG38m
+        JYcmJYcmJYYlJYYmJIcmJYcmJYcmJYcmJYcmJIcmJIcmJIYmJIYmJIYmJIcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYclJYcmJYghHH82UKZgvvtdwf1cvvpdvvpc
+        vvpdw/5eufY1TqUiGn8lJYcmJYcmJYUmJYYmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIgmJIclJYUmJYYiG387
+        W7Bgwf1dwvxcvftdvvtcvvpcxP1evPk6WK0iG4AmI4YmJYcmJYYmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYYm
+        JYYlJIgmJYYmJIchG4A8YrVixP5dwfxcvvpcvvpcvftdwv1hwv1CbbwiHoIlIYQmJYcmJYcmJYcmJYYm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIYgHH9Barphxv9dwPtcvvpcvvpcvvpcwfxhx/9Lhs8mKIgj
+        H4ImJYgmJIcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYclJIclJIYhHIBEccBhxv9bwPpcvvpcvvpb
+        vvpcv/phyP9VnuQtOJQhG4AnJIYlJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJIgmJYclI4UjHYFI
+        fcphx/9cvvpcvvpcv/pcvvtcvvpgxv9bsvA2UachHIAkIIMmJIgmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIcm
+        JYYlJYcmJYYlIoUjIoRQj9dhyf9cv/tdvvpdvvpdvvpcvvpewv5hwvxKhM4rMpEiHIAmJIcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYclJYclJYYlJYcnJYcmJYckIYQmKIlOjNRiyP9dw/xcvvpdvvpbv/pcvftcwPtgyP9bs/I6
+        WK0iHYEmJIclJYcnJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6
+        OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYYkIYQkIYQ+Z7let/VgyP9bwPpcvvpe
+        vvpcv/pdvftew/1ixf47XrEiHIIlJYcmJYclJIcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJIclJYYmI4YgHH8s
+        NpRMidNhxP5exf5cv/pcvvpdvvpcvvpdwv9dt/UtN5QkIYQmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JIYmJIglJIcmJYYjIIMhHoE4VapXqOphx/9gxv9ewv1cwfxdwv1hyf83TKQjHoEmJIcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYc6OpImJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcm
+        JYcmJYcmJYcmJYcmJYcnJYclJYcmJIcmJYcmJIYiHIEnKos7XrNPkdharO1ctPRds/JMhM8mKYgmI4Ym
+        JYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYcmJYclJYc6OpEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SealSignSQSClient - Sign here . . .</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>STUSignatureForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
