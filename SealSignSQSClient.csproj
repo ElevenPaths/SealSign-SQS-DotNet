@@ -12,10 +12,14 @@
     <AssemblyName>SealSignSQSClient</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -89,6 +93,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="ProgressWindow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SealSignSQSClient.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -191,11 +200,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -203,14 +207,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Actions-go-previous-view-page-icon.png" />
     <None Include="Actions-go-next-view-page-icon.png" />
     <None Include="Actions-edit-delete-icon.png" />
     <None Include="Actions-dialog-ok-icon.png" />
-    <None Include="Icojam-Blue-Bits-Symbol-check.ico" />
-    <None Include="Awicons-Vista-Artistic-Delete.ico" />
-    <None Include="go_next_page.ico" />
-    <None Include="go_previous_page.ico" />
     <Content Include="delete.ico" />
     <Content Include="Icojam-Blue-Bits-Symbol-check %281%29.ico" />
     <Content Include="Logo.gif" />

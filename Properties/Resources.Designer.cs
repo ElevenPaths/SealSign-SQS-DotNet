@@ -93,59 +93,9 @@ namespace SealSignSQSClient.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Actions_go_previous_view_page_icon {
-            get {
-                object obj = ResourceManager.GetObject("Actions-go-previous-view-page-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Awicons_Vista_Artistic_Delete {
-            get {
-                object obj = ResourceManager.GetObject("Awicons-Vista-Artistic-Delete", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap delete {
             get {
                 object obj = ResourceManager.GetObject("delete", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap go_next_page {
-            get {
-                object obj = ResourceManager.GetObject("go_next_page", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap go_previous_page {
-            get {
-                object obj = ResourceManager.GetObject("go_previous_page", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Icojam_Blue_Bits_Symbol_check {
-            get {
-                object obj = ResourceManager.GetObject("Icojam-Blue-Bits-Symbol-check", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
