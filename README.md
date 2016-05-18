@@ -9,7 +9,7 @@ A running instance of SQS, can be dowloaded from here (https://www.elevenpaths.c
 # Funcionalities
 
  * Get the PENDING or SIGNED documents from SQS and perform actions like Sign, set signature, Delete and preview them
- * Add PDFs from sdcard to SQS (Through File > Add)
+ * Add PDFs from hard drive to SQS (Through File > Add)
  * Setup SQS connection string (Configuration)
  * Signature setup
  * Change owner of documents
