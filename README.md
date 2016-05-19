@@ -1,6 +1,7 @@
 # SealSign-SQS-DotNet
 
 Example use of the SealSign SDK Simple Queue Service (SQS) in windows Form application.
+Warning: The application minimizes in to the tray.
 
 # Requisites
 
@@ -13,3 +14,8 @@ A running instance of SQS, can be dowloaded from here (https://www.elevenpaths.c
  * Setup SQS connection string (Configuration)
  * Signature setup
  * Change owner of documents
+
+# Screenshots
+
+![Signed documents](/images/signedDocuments.png?raw=true "Signed documents")
+![Settings](/images/settings.png?raw=true "Settings")
