@@ -15,6 +15,12 @@ A running instance of SQS, can be dowloaded from here (https://www.elevenpaths.c
  * Signature setup
  * Change owner of documents
 
+# Contributing code
+
+If you have improvements to this project, please send us your pull requests! We'd love to accept your patches!
+
+For those just getting started, Github has a [howto](https://help.github.com/articles/using-pull-requests/).
+
 # Screenshots
 
 ![Signed documents](/images/signedDocuments.png?raw=true "Signed documents")
