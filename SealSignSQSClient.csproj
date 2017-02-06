@@ -47,7 +47,7 @@
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="SealSignBSSClientLibrary, Version=3.0.0.0, Culture=neutral, PublicKeyToken=7292d37ec3154539, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Deploy\SealSignBSSClientLibrary.dll</HintPath>
+      <HintPath>deploy\SealSignBSSClientLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -195,7 +195,9 @@
     <EmbeddedResource Include="WaitingForm.resx">
       <DependentUpon>WaitingForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -211,6 +213,12 @@
     <None Include="Actions-edit-delete-icon.png" />
     <None Include="Actions-dialog-ok-icon.png" />
     <Content Include="delete.ico" />
+    <Content Include="Interop.wgssSTU.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wgssSTU.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Icojam-Blue-Bits-Symbol-check %281%29.ico" />
     <Content Include="Logo.gif" />
     <Content Include="Oxygen-Icons.org-Oxygen-Actions-go-next-view-page.ico" />
